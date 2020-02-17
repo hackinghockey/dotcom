@@ -1,0 +1,55 @@
+title = "Hacking Hockey"
+baseurl = "https://hackinghockey.com"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Metadata mostly used in document's head
+  description = "Accessible Hockey"
+  keywords = "hockey, hacking, statistics, data, learn"
+  images = [""]
+  copyright = "Hacking Hockey"
+  readOtherPosts = "Read other posts"
+
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+  [params.logo]
+    logoText = "🏒 hacking hockey"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    logoCursorColor    = "#FF0000"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+  
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/hackinghockey"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/hackinghockey"
+
+[[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+[[menu.main]]
+  identifier = "posts"
+  name       = "Posts"
+  url        = "posts/"
